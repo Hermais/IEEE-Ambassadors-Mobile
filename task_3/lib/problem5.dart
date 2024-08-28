@@ -1,9 +1,6 @@
-void main(){
-  print(returnMiddleChar("abnbc"));
 
-}
 
-String returnMiddleChar(String s){
+String getMiddle(String s){
   if(s.length % 2 == 0){
     return s.substring(s.length ~/ 2 - 1, s.length ~/ 2 + 1);
   } else {

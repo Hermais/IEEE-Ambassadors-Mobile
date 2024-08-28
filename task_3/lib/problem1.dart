@@ -1,10 +1,8 @@
 import 'dart:math';
 
-void main() {
-  print(reorderInt(1234));
-}
 
-int reorderInt(int n){
+
+int descendingOrder(int n){
   List<int> digits = asDigits(n);
   digits.sort();
   return toIntFromList(digits);
